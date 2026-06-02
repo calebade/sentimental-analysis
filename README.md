@@ -6,9 +6,9 @@ An enterprise-ready, modular ELT (Extract, Load, Transform) data pipeline design
 
 ## 🏗️ Data Architecture & Lineage
 
-[ Raw TSV Ingestion ] ──► [ Modular Python ETL ] ──► [ Local/Cloud Warehouse ](data/Restaurant_Reviews)    (Regex/Text Cleaning)     (sqlite/PostgreSQL Db)
+[ Raw TSV Ingestion ] ──► [ Modular Python ETL ] ──► [ Local db ](data/Restaurant_Reviews)    (Regex/Text Cleaning)     (sqlite/PostgreSQL Db)
 
-Unlike academic Jupyter Notebook approaches that load and manipulate data statically in-memory, this production-grade architecture decouples every phase of data processing into dedicated, decoupled Python modules with strict error boundary handling and operational logging.
+Unlike Jupyter Notebook approaches that load and manipulate data statically in-memory, this production-grade architecture decouples every phase of data processing into dedicated, decoupled Python modules with strict error boundary handling and operational logging.
 
 ---
 
@@ -26,7 +26,7 @@ Unlike academic Jupyter Notebook approaches that load and manipulate data static
 ### 1. Installation & Environment Setup
 Clone the repository infrastructure and install the necessary package dependencies inside a clean virtual environment:
 ```bash
-git clone https://github.com
+git clone [https://github.com/calebade/sentimental-analysis](https://github.com/calebade/sentimental-analysis)
 cd sentimental-analysis
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
