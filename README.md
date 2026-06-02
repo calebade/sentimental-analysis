@@ -26,7 +26,7 @@ Unlike Jupyter Notebook approaches that load and manipulate data statically in-m
 ### 1. Installation & Environment Setup
 Clone the repository infrastructure and install the necessary package dependencies inside a clean virtual environment:
 ```bash
-git clone [https://github.com/calebade/sentimental-analysis](https://github.com/calebade/sentimental-analysis)
+git clone https://github.com/calebade/sentimental-analysis
 cd sentimental-analysis
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
