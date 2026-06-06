@@ -6,7 +6,8 @@ An enterprise-ready, modular ELT (Extract, Load, Transform) data pipeline design
 
 ## 🏗️ Data Architecture & Lineage
 
-[ Raw TSV Ingestion ] ──► [ Modular Python ETL ] ──► [ Local db ](data/Restaurant_Reviews)    (Regex/Text Cleaning)     (sqlite/PostgreSQL Db)
+[ Raw TSV Ingestion ]   ──►  [ Modular Python ETL ] ──► [ Local db ]
+(data/Restaurant_Reviews)    (Regex/Text Cleaning)      (sqlite/PostgreSQL Db)
 
 Unlike Jupyter Notebook approaches that load and manipulate data statically in-memory, this production-grade architecture decouples every phase of data processing into dedicated, decoupled Python modules with strict error boundary handling and operational logging.
 
